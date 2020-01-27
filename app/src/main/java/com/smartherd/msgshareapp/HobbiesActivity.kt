@@ -16,6 +16,6 @@ class HobbiesActivity : AppCompatActivity() {
 		recyclerView.layoutManager = layoutManager
 
 		val adapter= HobbiesAdapter(this, Supplier.hobbies)
-		recyclerView.adapter = adapter
+		recyclerView.adapter = adapter    //recyclerView is id of our recyclerView in activity_hobbies.xml
 	}
 }
