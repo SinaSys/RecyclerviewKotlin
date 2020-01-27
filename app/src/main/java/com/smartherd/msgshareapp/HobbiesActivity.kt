@@ -13,7 +13,7 @@ class HobbiesActivity : AppCompatActivity() {
 
 		val layoutManager = LinearLayoutManager(this)
 		layoutManager.orientation = LinearLayoutManager.VERTICAL
-		recyclerView.layoutManager = layoutManager
+		recyclerView.layoutManager = layoutManager  //recyclerView is id of our recyclerView in activity_hobbies.xml
 
 		val adapter= HobbiesAdapter(this, Supplier.hobbies)
 		recyclerView.adapter = adapter    //recyclerView is id of our recyclerView in activity_hobbies.xml
